@@ -18,7 +18,8 @@
 		"indent": [ "error", "tab" ],
 		"linebreak-style": [ "error", "unix" ],
 		"quotes": [ "error", "double" ],
-		"semi": [ "error", "always" ]
+		"semi": [ "error", "always" ],
+		"@next/next/no-img-element": "off"
 	},
 	"ignorePatterns": ["ads.js", "utils.js", "production.js", "development.js", "server.js"],
 	"globals": {

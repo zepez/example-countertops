@@ -18,25 +18,9 @@ a {
   box-sizing: border-box;
 }
 
-.header-background {
-	background-image: url("/granite.jpg");
-	background-color: #cccccc;
-}
-
-.main-background {
-	background-image: url("/gradient-header.svg");
-	background-color: #cccccc;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 75vh;
-}
 
 .max-width {
+	max-width: 1400px;
 	width: 100%;
-	min-width: 300px;
-	max-width: 1500px;
-	margin: 0px auto;
-	display: block;
-	padding: 15px;
+	margin: 0 auto;
 }

@@ -12,11 +12,11 @@ const navLinks = [
 
 const DesktopNav = () => {
 	return (
-		<div className="bg-red-50 py-3 px-4 xl:px-10">
-			<nav className="flex justify-between items-center py-3 mx-auto px-8 my-3 rounded-sm" style={{ maxWidth: 1200 }}>
-				<a className="inline-block mr-auto text-lg font-semibold" href="/">
-					<img src="/logo.svg" style={{ width: 130 }} alt="" />
-				</a>
+		<div className="bg-white py-3 px-4 xl:px-10 mb-8 md:mb-12" style={{ borderBottom: "2px solid gray" }}>
+			<nav className="flex justify-between items-center mx-auto px-8 my-3 rounded-sm" style={{ maxWidth: 1200 }}>
+				<Link href="/" passHref>
+					<img src="/logo.svg" className="h-10 md:h-16" alt="" />
+				</Link>
 				<div className="lg:hidden ml-auto">
 					<button className="navbar-burger flex items-center p-3 hover:bg-gray-50 rounded">
 						<svg className="block h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

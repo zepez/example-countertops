@@ -1,5 +1,8 @@
 import React from "react";
-import Navigation from "./navigation/desktop";
+import Head from "next/head";
+import DesktopNav from "./navigation/desktop";
+import MobileNav from "./navigation/mobile";
+import Footer from "./navigation/footer";
 import styles from "../styles/Layout.module.css";
 
 
@@ -11,17 +14,20 @@ interface Props {
 const Layout = (props:Props) => {
 	return (
 		<div className={styles.container}>
+			<Head>
+				<script async src="/main.js" />
+			</Head>
+
 			<main className={styles.main}>
-				<Navigation />
+				<DesktopNav />
+				<MobileNav />
 				<div className="max-width">
 					{props.children}
 				</div>
 			</main>
 
 			<footer className={styles.footer}>
-				<a href="#" target="_blank" rel="noopener noreferrer">
-          Powered by businessnamehere
-				</a>
+				<Footer />
 			</footer>
 		</div>
 	);

@@ -36,7 +36,7 @@ const Contact: NextPage = () => {
 			<section className="max-width bg-red-50 w-full p-8 rounded-md" style={{ paddingBottom: 250 }}>
 			</section>
 
-			<section className="bg-white mx-auto p-8 rounded-md shadow-lg grid grid-cols-2 gap-8" style={{ maxWidth: 1200, marginTop: -200 }}>
+			<section className="bg-white mx-auto p-8 rounded-md shadow-lg grid grid-cols-1 md:grid-cols-2 gap-8" style={{ maxWidth: 1200, marginTop: -200 }}>
 				<div>
 					<h2 className="text-3xl text-center mb-2">Give us a visit</h2>
 					<p className="text-sm text-center mb-8">Monday - Friday: 8am - 4pm</p>

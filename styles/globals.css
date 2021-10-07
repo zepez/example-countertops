@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	font-size: 1.2rem;
+	font-family: 'Jost', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -13,4 +16,27 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.header-background {
+	background-image: url("/granite.jpg");
+	background-color: #cccccc;
+}
+
+.main-background {
+	background-image: url("/gradient-header.svg");
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 75vh;
+}
+
+.max-width {
+	width: 100%;
+	min-width: 300px;
+	max-width: 1500px;
+	margin: 0px auto;
+	display: block;
+	padding: 15px;
 }

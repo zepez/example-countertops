@@ -1,4 +1,5 @@
 import React from "react";
+import Navigation from "./navigation/desktop";
 import styles from "../styles/Layout.module.css";
 
 
@@ -11,7 +12,10 @@ const Layout = (props:Props) => {
 	return (
 		<div className={styles.container}>
 			<main className={styles.main}>
-				{props.children}
+				<Navigation />
+				<div className="max-width">
+					{props.children}
+				</div>
 			</main>
 
 			<footer className={styles.footer}>

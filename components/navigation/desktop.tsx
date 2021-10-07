@@ -12,7 +12,7 @@ const navLinks = [
 
 const DesktopNav = () => {
 	return (
-		<div className="bg-white py-3 px-4 xl:px-10 mb-8 md:mb-12" style={{ borderBottom: "2px solid gray" }}>
+		<div className="bg-white py-3 px-4 xl:px-10 mb-12" style={{ borderBottom: "2px solid gray" }}>
 			<nav className="flex justify-between items-center mx-auto px-8 my-3 rounded-sm" style={{ maxWidth: 1200 }}>
 				<Link href="/" passHref>
 					<img src="/logo.svg" className="h-10 md:h-16" alt="" />

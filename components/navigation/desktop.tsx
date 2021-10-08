@@ -15,7 +15,7 @@ const DesktopNav = () => {
 		<div className="bg-white py-3 px-4 xl:px-10 mb-12" style={{ borderBottom: "2px solid gray" }}>
 			<nav className="flex justify-between items-center mx-auto px-8 my-3 rounded-sm" style={{ maxWidth: 1200 }}>
 				<Link href="/" passHref>
-					<img src="/logo.svg" className="h-10 md:h-16" alt="" />
+					<img src="/logo.svg" className="h-10 md:h-16 cursor-pointer" alt="" />
 				</Link>
 				<div className="lg:hidden ml-auto">
 					<button className="navbar-burger flex items-center p-3 hover:bg-gray-50 rounded">
